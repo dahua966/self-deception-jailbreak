@@ -20,4 +20,5 @@ python src/main.py --target-model gpt-3.5-turbo --assist-model qwen2.5 --device 
 
 The conversation content is saved in the `./conversation/attack_logs` directory. 
 
-
+Here is the conversation file:
+https://pan.baidu.com/s/1QUA552UkGD3RHTmdQIUtUQ?pwd=gwz8
