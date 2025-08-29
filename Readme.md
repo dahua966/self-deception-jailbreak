@@ -15,18 +15,9 @@ pip install -r requirements.txt
 Run the following command to execute attacks:
 
 ```bash
-python src/main.py --model gpt-3.5-turbo -device cuda:0
+python src/main.py --target-model gpt-3.5-turbo --assist-model qwen2.5 --device cuda:0 --device cuda:1
 ```
 
 The conversation content is saved in the `./conversation/attack_logs` directory. 
 
-### Defense Mode
-
-Run the following command to execute defense:
-
-```bash
-python src/defense.py
-```
-
-The conversation content is saved in the `./conversation/defense_logs` directory. 
 
