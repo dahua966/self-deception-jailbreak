@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time    : 2025/8/1 9:08
-# @Author  : HuaSir
-# @File    : settings.py
-# @Description: An interesting script
 from pathlib import Path
 import os
 
