@@ -1,51 +1,67 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# @Time    : 2025/8/1 9:08
+# @Author  : HuaSir
+# @File    : settings.py
+# @Description: An interesting script
 from pathlib import Path
+import os
 
-API_HOST = ""
-API_KEY = ""
-DIRECT_KEY = ""
+API_HOST = "https://api.huiyan-ai.com/v1"
+API_KEY = "sk-"
+DIRECT_KEY = "sk-"
+
+import subprocess
+result = subprocess.run(['whoami'], capture_output=True, text=True)
+BREAKER = True if result.stdout.strip() == "breaker" else False
+WIN = True if "desktop" in result.stdout.strip() else False
+
 PUBLIC_MODEL = ""
 
-
-MODEL_PATH = {"qwen3": f"{PUBLIC_MODEL}/Qwen3-8B",
-              "deepseek": f"{PUBLIC_MODEL}/DeepSeek-R1-Distill-Llama-8B"}
-
+MODEL_PATH = {"llama2": f"{PUBLIC_MODEL}/Llama-2-7b-chat-hf",
+              "qwen3": f"{PUBLIC_MODEL}/Qwen3-8B",
+              "qwen2.5": f"{PUBLIC_MODEL}/Qwen2.5-7B-Instruct",
+              "tinyQwen": f"{PUBLIC_MODEL}/Qwen2.5-0.5B-Instruct",
+              "tinyQwen3": f"{PUBLIC_MODEL}/Qwen3-0.6B",
+              "deepseek": f"{PUBLIC_MODEL}/DeepSeek-R1-Distill-Llama-8B",
+              "harmbench": f"{PUBLIC_MODEL}/HarmBench-Llama-2-13b-cls",
+              # "llama_guard3": f"{PUBLIC_MODEL}/Meta-Llama-Guard-3-8B",
+              "llama_guard3": f"{PUBLIC_MODEL}/Llama-Guard-3-1B",
+              "llama_guard2": f"{PUBLIC_MODEL}/Meta-Llama-Guard-2-8B",
+              "prompt_guard2": f"{PUBLIC_MODEL}/Llama-Prompt-Guard-2-86M",}
 
 PROJECT_DIR = str(Path(__file__).parent.parent.resolve())
+DATA_DIR = f"{PROJECT_DIR}/data"
 
 
 Languages = {"zh":"Chinese", "en":"English", "ru":"Russian", "fr":"French", "es":"Spanish", "ar":"Arabic"}
 
 
 # 对话场景
-Senarios = {'en': ['game', 'opera', 'teleplay', 'script', 'novel', 'comic', 'movie'],
-            'es': ['juego', 'ópera', 'televisión', 'guión', 'novela', 'cómic', 'película'],
-            'zh': ['游戏', '歌剧', '电视剧', '剧本', '小说', '漫画', '电影'],
-            'fr': ['jeu', 'opéra', 'télévision', 'scénario', 'roman', 'bande dessinée', 'film'],
-            'ru': ['видеоигра', 'опера', 'телевидение', 'сценарий', 'роман', 'комикс', 'фильм'],
-            'ar': ['لعبة', 'أوبرا', 'تلفزيون', 'سيناريو', 'رواية', 'كوميك', 'فيلم']}
+Senarios = {'en': ['game', 'teleplay', 'script', 'novel', 'comic', 'movie'],
+            'es': ['juego', 'televisión', 'guión', 'novela', 'cómic', 'película'],
+            'zh': ['游戏', '电视剧', '剧本', '小说', '漫画', '电影'],
+            'fr': ['jeu', 'télévision', 'scénario', 'roman', 'bande dessinée', 'film'],
+            }
 
 
-sexual_adjective = {"en":['Obscene','Vulgar', 'Lewd','Indecent', 'Salacious', 'Raunchy', 'Steamy', 'licentious', 'lascivious', 'nasty'],
-                    "zh": ['淫秽的', '好色的', '淫荡的', '肉欲的', '情色的', '下流的', '淫乱的', '性欲的', '荒淫的', '龌龊的'],
-                    "fr": ['Obscène', 'Licencieux', 'Lubrique', 'Dépravé', 'Indécent',  'Vicieux', 'Goulu', 'méchant', 'débauché', 'déshonorant'],
-                    "es": ['Obsceno', 'Lascivo', 'Libidinoso', 'Depravado', 'Indecente', 'Sensual', 'Vicioso', 'Caliente', 'Morboso', 'malvado'],
-                    "ru": ['Обсценный', 'Грубый', 'Нагота', 'Непристойный','развратный', 'противный', 'Похабный', 'скандальный', 'некультурный', 'Вульгарный'],
-                    "ar": ['فاضِح', 'نَذِل', 'سَافِل', 'قَذِر',  'بذيئة', 'فاحشة', 'قذر', 'فاضح', 'ملتوي' ,'مضلل']}
+def data_path(*file_name):
+    return os.path.join(PROJECT_DIR, "data", *file_name)
 
-violence_adjective = {"en":['Fierce', 'Violent', 'Brutal', 'Savage','Aggressive', 'Bloody', 'Vicious', 'Ruthless', 'Barbaric', 'Merciless'], #'Ferocious', --> Merciless
-                    "zh": ['凶狠的', '残忍的', '野蛮的', '暴虐的', '凶残的', '血腥的', '狂暴的', '强横的', '残暴的', '凶恶的'],
-                    "fr": ['Violent', 'Brutal', 'Aggressif', 'Féroce', 'Sanglant', 'Barbare', 'Cruel', 'Inhumain', 'Impitoyable', 'meurtrier'], #'Sauvage', --> meurtrier
-                    "es": ['Violento', 'Brutal', 'Agresivo', 'Sangriento', 'Bárbaro', 'Cruel', 'Inhumano', 'Implacable',  'tiránico', 'Ensangrentado'],
-                    "ru": ['Сильный', 'Жестокий', 'Суровый', 'Агрессивный', 'Кровавый', 'Безжалостный', 'Отмороженный',  'порочный', 'тиранический', 'свирепый'],#дикий-->свирепый
-                    "ar": ['عُنِيف', 'قاسٍ', 'ظالِم', 'مُتَوَحْش', 'شَرِّس', 'قاسي', 'طاغية', 'مُتَوَحَّش', 'شرير', 'عنيف']}
 
-hate_adjective = {"en":['Prejudiced', 'Discriminatory', 'Hateful', 'Racist', 'Sexist', 'Homophobic', 'Xenophobic', 'Intolerant', 'Hostile', 'Antagonistic'],
-                    "zh": ['偏见的',  '种族主义的', '性别主义的', '反同性恋的', '排外的', '仇视的', '民族主义的', '充满敌意的', '种姓主义的', '宗教极端主义的'],
-                    "fr": ['Hostile', 'Rancunier', 'Malveillant', 'Antipathique', 'Méprisant', 'préjudiciable', 'Amer', 'Venimeux','Odieux', 'xénophobe'],
-                    "es": ['Odioso', 'Hostil', 'Rencoroso', 'Malintencionado', 'Antipático', 'Despreciativo', 'xenófobo', 'prejuiciado', 'racista', 'sexista'],
-                    "ru": ['Эксклюзивный', 'Враждебный', 'Злобный', 'Антипатичный', 'Презрительный', 'Ненавистный', 'Ядовитый', 'Ужасный', 'расистский', 'сексистский'],
-                    "ar": ['عَدُوّ', 'عَدُوّي', 'مُبْغِض', 'بَغِيض', 'مُتَعَصِّب', 'كراهية' , 'عنصري', "متطرف ديني", "معادٍ للمثليين", 'بُغض']}
+def conv_path(*file_name):
+    return os.path.join(PROJECT_DIR, "conversation", *file_name)
 
-init_vectors = {"violence": violence_adjective, "hate": hate_adjective, "sexual": sexual_adjective}
+
+cate_abbr = {
+    'Malware/Hacking': 'Malware',
+    'Privacy': 'Priv',
+    'Fraud/Deception': 'Fraud',
+    'Economic harm': 'EconHarm',
+    'Government decision-making': 'GovDec',
+    'Expert advice': 'ExpAdv',
+    'Disinformation': 'Disinfo',
+    'Harassment/Discrimination': 'Harrass',
+    'Physical harm': 'PhysHarm',
+    'Sexual/Adult content': 'Sexual',
+}
