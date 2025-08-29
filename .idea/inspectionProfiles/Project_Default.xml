@@ -1,0 +1,319 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="227">
+            <item index="0" class="java.lang.String" itemvalue="mysqlclient" />
+            <item index="1" class="java.lang.String" itemvalue="openai" />
+            <item index="2" class="java.lang.String" itemvalue="vllm" />
+            <item index="3" class="java.lang.String" itemvalue="art" />
+            <item index="4" class="java.lang.String" itemvalue="confection" />
+            <item index="5" class="java.lang.String" itemvalue="datasketch" />
+            <item index="6" class="java.lang.String" itemvalue="ray" />
+            <item index="7" class="java.lang.String" itemvalue="google-cloud-aiplatform" />
+            <item index="8" class="java.lang.String" itemvalue="spacy" />
+            <item index="9" class="java.lang.String" itemvalue="sentence_transformers" />
+            <item index="10" class="java.lang.String" itemvalue="boto3" />
+            <item index="11" class="java.lang.String" itemvalue="fschat" />
+            <item index="12" class="java.lang.String" itemvalue="bpe" />
+            <item index="13" class="java.lang.String" itemvalue="mistralai" />
+            <item index="14" class="java.lang.String" itemvalue="duckpy" />
+            <item index="15" class="java.lang.String" itemvalue="pydantic" />
+            <item index="16" class="java.lang.String" itemvalue="LongChat" />
+            <item index="17" class="java.lang.String" itemvalue="huggingface_hub" />
+            <item index="18" class="java.lang.String" itemvalue="mysql" />
+            <item index="19" class="java.lang.String" itemvalue="transformers" />
+            <item index="20" class="java.lang.String" itemvalue="model_center" />
+            <item index="21" class="java.lang.String" itemvalue="cprint" />
+            <item index="22" class="java.lang.String" itemvalue="bmtrain" />
+            <item index="23" class="java.lang.String" itemvalue="wandb" />
+            <item index="24" class="java.lang.String" itemvalue="torch" />
+            <item index="25" class="java.lang.String" itemvalue="datasets" />
+            <item index="26" class="java.lang.String" itemvalue="absl-py" />
+            <item index="27" class="java.lang.String" itemvalue="jieba" />
+            <item index="28" class="java.lang.String" itemvalue="python-Levenshtein" />
+            <item index="29" class="java.lang.String" itemvalue="tabulate" />
+            <item index="30" class="java.lang.String" itemvalue="nltk" />
+            <item index="31" class="java.lang.String" itemvalue="scikit_learn" />
+            <item index="32" class="java.lang.String" itemvalue="timeout_decorator" />
+            <item index="33" class="java.lang.String" itemvalue="rouge" />
+            <item index="34" class="java.lang.String" itemvalue="opencv-python-headless" />
+            <item index="35" class="java.lang.String" itemvalue="rouge_score" />
+            <item index="36" class="java.lang.String" itemvalue="rouge-chinese" />
+            <item index="37" class="java.lang.String" itemvalue="sacrebleu" />
+            <item index="38" class="java.lang.String" itemvalue="fuzzywuzzy" />
+            <item index="39" class="java.lang.String" itemvalue="OpenCC" />
+            <item index="40" class="java.lang.String" itemvalue="typer" />
+            <item index="41" class="java.lang.String" itemvalue="cpm_kernels" />
+            <item index="42" class="java.lang.String" itemvalue="h5py" />
+            <item index="43" class="java.lang.String" itemvalue="immutabledict" />
+            <item index="44" class="java.lang.String" itemvalue="pandas" />
+            <item index="45" class="java.lang.String" itemvalue="prettytable" />
+            <item index="46" class="java.lang.String" itemvalue="func_timeout" />
+            <item index="47" class="java.lang.String" itemvalue="mmengine-lite" />
+            <item index="48" class="java.lang.String" itemvalue="rank_bm25" />
+            <item index="49" class="java.lang.String" itemvalue="einops" />
+            <item index="50" class="java.lang.String" itemvalue="evaluate" />
+            <item index="51" class="java.lang.String" itemvalue="llama-cpp-python" />
+            <item index="52" class="java.lang.String" itemvalue="llama-index" />
+            <item index="53" class="java.lang.String" itemvalue="gpustat" />
+            <item index="54" class="java.lang.String" itemvalue="pytrie" />
+            <item index="55" class="java.lang.String" itemvalue="tenacity" />
+            <item index="56" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="57" class="java.lang.String" itemvalue="numpy" />
+            <item index="58" class="java.lang.String" itemvalue="requests" />
+            <item index="59" class="java.lang.String" itemvalue="jinja2" />
+            <item index="60" class="java.lang.String" itemvalue="modelscope" />
+            <item index="61" class="java.lang.String" itemvalue="deepspeed" />
+            <item index="62" class="java.lang.String" itemvalue="peft" />
+            <item index="63" class="java.lang.String" itemvalue="accelerate" />
+            <item index="64" class="java.lang.String" itemvalue="flash-attn" />
+            <item index="65" class="java.lang.String" itemvalue="bitsandbytes" />
+            <item index="66" class="java.lang.String" itemvalue="ninja" />
+            <item index="67" class="java.lang.String" itemvalue="xformers" />
+            <item index="68" class="java.lang.String" itemvalue="triton" />
+            <item index="69" class="java.lang.String" itemvalue="torchvision" />
+            <item index="70" class="java.lang.String" itemvalue="httpx" />
+            <item index="71" class="java.lang.String" itemvalue="tiktoken" />
+            <item index="72" class="java.lang.String" itemvalue="py3langid" />
+            <item index="73" class="java.lang.String" itemvalue="Mesa" />
+            <item index="74" class="java.lang.String" itemvalue="gradio" />
+            <item index="75" class="java.lang.String" itemvalue="colorlog" />
+            <item index="76" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="77" class="java.lang.String" itemvalue="setuptools-scm" />
+            <item index="78" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="79" class="java.lang.String" itemvalue="Mesa-Viz-Tornado" />
+            <item index="80" class="java.lang.String" itemvalue="fastapi" />
+            <item index="81" class="java.lang.String" itemvalue="typing-inspect" />
+            <item index="82" class="java.lang.String" itemvalue="langchain" />
+            <item index="83" class="java.lang.String" itemvalue="astunparse" />
+            <item index="84" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="85" class="java.lang.String" itemvalue="textblob" />
+            <item index="86" class="java.lang.String" itemvalue="PyMuPDF" />
+            <item index="87" class="java.lang.String" itemvalue="langgraph" />
+            <item index="88" class="java.lang.String" itemvalue="htmldocx" />
+            <item index="89" class="java.lang.String" itemvalue="gpt-researcher" />
+            <item index="90" class="java.lang.String" itemvalue="aiofiles" />
+            <item index="91" class="java.lang.String" itemvalue="python-multipart" />
+            <item index="92" class="java.lang.String" itemvalue="loguru" />
+            <item index="93" class="java.lang.String" itemvalue="md2pdf" />
+            <item index="94" class="java.lang.String" itemvalue="lxml_html_clean" />
+            <item index="95" class="java.lang.String" itemvalue="unstructured" />
+            <item index="96" class="java.lang.String" itemvalue="arxiv" />
+            <item index="97" class="java.lang.String" itemvalue="json_repair" />
+            <item index="98" class="java.lang.String" itemvalue="websockets" />
+            <item index="99" class="java.lang.String" itemvalue="numba" />
+            <item index="100" class="java.lang.String" itemvalue="jupyterlab_widgets" />
+            <item index="101" class="java.lang.String" itemvalue="mkdocs-material" />
+            <item index="102" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="103" class="java.lang.String" itemvalue="paginate" />
+            <item index="104" class="java.lang.String" itemvalue="executing" />
+            <item index="105" class="java.lang.String" itemvalue="gitdb" />
+            <item index="106" class="java.lang.String" itemvalue="Pygments" />
+            <item index="107" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="108" class="java.lang.String" itemvalue="umap-learn" />
+            <item index="109" class="java.lang.String" itemvalue="pycryptodomex" />
+            <item index="110" class="java.lang.String" itemvalue="bleach" />
+            <item index="111" class="java.lang.String" itemvalue="fire" />
+            <item index="112" class="java.lang.String" itemvalue="lxml" />
+            <item index="113" class="java.lang.String" itemvalue="soupsieve" />
+            <item index="114" class="java.lang.String" itemvalue="mkdocs-get-deps" />
+            <item index="115" class="java.lang.String" itemvalue="prometheus_client" />
+            <item index="116" class="java.lang.String" itemvalue="jsonschema" />
+            <item index="117" class="java.lang.String" itemvalue="GitPython" />
+            <item index="118" class="java.lang.String" itemvalue="mergedeep" />
+            <item index="119" class="java.lang.String" itemvalue="circuitsvis" />
+            <item index="120" class="java.lang.String" itemvalue="click" />
+            <item index="121" class="java.lang.String" itemvalue="ipykernel" />
+            <item index="122" class="java.lang.String" itemvalue="mkdocs-material-extensions" />
+            <item index="123" class="java.lang.String" itemvalue="nbconvert" />
+            <item index="124" class="java.lang.String" itemvalue="attrs" />
+            <item index="125" class="java.lang.String" itemvalue="contourpy" />
+            <item index="126" class="java.lang.String" itemvalue="psutil" />
+            <item index="127" class="java.lang.String" itemvalue="jedi" />
+            <item index="128" class="java.lang.String" itemvalue="jupyter_server" />
+            <item index="129" class="java.lang.String" itemvalue="regex" />
+            <item index="130" class="java.lang.String" itemvalue="pydantic_core" />
+            <item index="131" class="java.lang.String" itemvalue="asttokens" />
+            <item index="132" class="java.lang.String" itemvalue="ghp-import" />
+            <item index="133" class="java.lang.String" itemvalue="platformdirs" />
+            <item index="134" class="java.lang.String" itemvalue="propcache" />
+            <item index="135" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="136" class="java.lang.String" itemvalue="narwhals" />
+            <item index="137" class="java.lang.String" itemvalue="griffe" />
+            <item index="138" class="java.lang.String" itemvalue="httpcore" />
+            <item index="139" class="java.lang.String" itemvalue="idna" />
+            <item index="140" class="java.lang.String" itemvalue="mkdocs-section-index" />
+            <item index="141" class="java.lang.String" itemvalue="referencing" />
+            <item index="142" class="java.lang.String" itemvalue="decorator" />
+            <item index="143" class="java.lang.String" itemvalue="networkx" />
+            <item index="144" class="java.lang.String" itemvalue="smmap" />
+            <item index="145" class="java.lang.String" itemvalue="json5" />
+            <item index="146" class="java.lang.String" itemvalue="pyyaml_env_tag" />
+            <item index="147" class="java.lang.String" itemvalue="cffi" />
+            <item index="148" class="java.lang.String" itemvalue="jupyter-events" />
+            <item index="149" class="java.lang.String" itemvalue="exceptiongroup" />
+            <item index="150" class="java.lang.String" itemvalue="jupyter" />
+            <item index="151" class="java.lang.String" itemvalue="zipp" />
+            <item index="152" class="java.lang.String" itemvalue="ipywidgets" />
+            <item index="153" class="java.lang.String" itemvalue="pyarrow" />
+            <item index="154" class="java.lang.String" itemvalue="importlib_metadata" />
+            <item index="155" class="java.lang.String" itemvalue="scipy" />
+            <item index="156" class="java.lang.String" itemvalue="tornado" />
+            <item index="157" class="java.lang.String" itemvalue="automated-interpretability" />
+            <item index="158" class="java.lang.String" itemvalue="mistune" />
+            <item index="159" class="java.lang.String" itemvalue="termcolor" />
+            <item index="160" class="java.lang.String" itemvalue="watchdog" />
+            <item index="161" class="java.lang.String" itemvalue="mkdocstrings-python" />
+            <item index="162" class="java.lang.String" itemvalue="babel" />
+            <item index="163" class="java.lang.String" itemvalue="debugpy" />
+            <item index="164" class="java.lang.String" itemvalue="multidict" />
+            <item index="165" class="java.lang.String" itemvalue="mkdocs-autorefs" />
+            <item index="166" class="java.lang.String" itemvalue="yarl" />
+            <item index="167" class="java.lang.String" itemvalue="pytz" />
+            <item index="168" class="java.lang.String" itemvalue="setproctitle" />
+            <item index="169" class="java.lang.String" itemvalue="protobuf" />
+            <item index="170" class="java.lang.String" itemvalue="threadpoolctl" />
+            <item index="171" class="java.lang.String" itemvalue="huggingface-hub" />
+            <item index="172" class="java.lang.String" itemvalue="jiter" />
+            <item index="173" class="java.lang.String" itemvalue="nbclient" />
+            <item index="174" class="java.lang.String" itemvalue="boostedblob" />
+            <item index="175" class="java.lang.String" itemvalue="tinycss2" />
+            <item index="176" class="java.lang.String" itemvalue="frozenlist" />
+            <item index="177" class="java.lang.String" itemvalue="fsspec" />
+            <item index="178" class="java.lang.String" itemvalue="python-json-logger" />
+            <item index="179" class="java.lang.String" itemvalue="filelock" />
+            <item index="180" class="java.lang.String" itemvalue="pyzmq" />
+            <item index="181" class="java.lang.String" itemvalue="safetensors" />
+            <item index="182" class="java.lang.String" itemvalue="certifi" />
+            <item index="183" class="java.lang.String" itemvalue="anyio" />
+            <item index="184" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="185" class="java.lang.String" itemvalue="sympy" />
+            <item index="186" class="java.lang.String" itemvalue="uvloop" />
+            <item index="187" class="java.lang.String" itemvalue="notebook" />
+            <item index="188" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="189" class="java.lang.String" itemvalue="tokenizers" />
+            <item index="190" class="java.lang.String" itemvalue="jupyter_client" />
+            <item index="191" class="java.lang.String" itemvalue="pure_eval" />
+            <item index="192" class="java.lang.String" itemvalue="pynndescent" />
+            <item index="193" class="java.lang.String" itemvalue="aiohappyeyeballs" />
+            <item index="194" class="java.lang.String" itemvalue="kiwisolver" />
+            <item index="195" class="java.lang.String" itemvalue="orjson" />
+            <item index="196" class="java.lang.String" itemvalue="jupyterlab_server" />
+            <item index="197" class="java.lang.String" itemvalue="fonttools" />
+            <item index="198" class="java.lang.String" itemvalue="pymdown-extensions" />
+            <item index="199" class="java.lang.String" itemvalue="widgetsnbextension" />
+            <item index="200" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="201" class="java.lang.String" itemvalue="pathspec" />
+            <item index="202" class="java.lang.String" itemvalue="webcolors" />
+            <item index="203" class="java.lang.String" itemvalue="async-timeout" />
+            <item index="204" class="java.lang.String" itemvalue="blobfile" />
+            <item index="205" class="java.lang.String" itemvalue="mkdocs" />
+            <item index="206" class="java.lang.String" itemvalue="llvmlite" />
+            <item index="207" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="208" class="java.lang.String" itemvalue="types-python-dateutil" />
+            <item index="209" class="java.lang.String" itemvalue="jsonschema-specifications" />
+            <item index="210" class="java.lang.String" itemvalue="rpds-py" />
+            <item index="211" class="java.lang.String" itemvalue="tomli" />
+            <item index="212" class="java.lang.String" itemvalue="urllib3" />
+            <item index="213" class="java.lang.String" itemvalue="jupyterlab" />
+            <item index="214" class="java.lang.String" itemvalue="backrefs" />
+            <item index="215" class="java.lang.String" itemvalue="six" />
+            <item index="216" class="java.lang.String" itemvalue="prompt_toolkit" />
+            <item index="217" class="java.lang.String" itemvalue="tzdata" />
+            <item index="218" class="java.lang.String" itemvalue="ipython" />
+            <item index="219" class="java.lang.String" itemvalue="mkdocstrings" />
+            <item index="220" class="java.lang.String" itemvalue="packaging" />
+            <item index="221" class="java.lang.String" itemvalue="fastjsonschema" />
+            <item index="222" class="java.lang.String" itemvalue="tqdm" />
+            <item index="223" class="java.lang.String" itemvalue="nnsight" />
+            <item index="224" class="java.lang.String" itemvalue="pillow" />
+            <item index="225" class="java.lang.String" itemvalue="async-lru" />
+            <item index="226" class="java.lang.String" itemvalue="aiosignal" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N802" />
+        </list>
+      </option>
+      <option name="ignoredBaseClasses">
+        <list />
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tuple.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlAddNotNullColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlAggregatesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlAmbiguousColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlAutoIncrementDuplicateInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlCallNotationInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="SqlCaseVsCoalesceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlCaseVsIfInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlCheckUsingColumnsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlConstantConditionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlConstantExpressionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlCurrentSchemaInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlDeprecateTypeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlDerivedTableAliasInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlDialectInspection" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SqlDropIndexedColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlDtInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlDuplicateColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlIdentifierInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlIllegalCursorStateInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlInsertIntoGeneratedColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlInsertNullIntoNotNullInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlInsertValuesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlJoinWithoutOnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlMisleadingReferenceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlMissingReturnInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="SqlMultipleLimitClausesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlNullComparisonInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlRedundantAliasInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlRedundantCodeInCoalesceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlRedundantElseNullInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlRedundantLimitInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlRedundantOrderingDirectionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlResolveInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="SqlShadowingAliasInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlShouldBeInGroupByInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlSideEffectsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlSignatureInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlStorageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlStringLengthExceededInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlTransactionStatementInTriggerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlTriggerTransitionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlTypeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlUnicodeStringLiteralInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlUnreachableCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlUnusedCteInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlUnusedSubqueryItemInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlUnusedVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlWithoutWhereInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
